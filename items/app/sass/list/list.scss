@@ -1,0 +1,183 @@
+@import  "../component/reset.scss";
+@import  "../component/shop-header.scss";
+@import  "../component/shop-footer.scss";
+@import  "../component/sideBar.scss";
+@import  "../component/detail-sideBar.scss";
+@import  "../component/err.scss";
+
+main{
+    width: 100%;
+    #list-box{
+        width: 1200px;
+        margin: 0 auto;
+        .list-banner{
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+        }
+        .list-product{
+            width: 995px;
+            padding-top: 30px;
+            background: #f9f9f9;
+            overflow: hidden;
+            >dl{float: left;
+               dt{float: left;}
+               dd{float: left;}
+            }
+            .list-price{
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+                border-bottom: 1px solid #e1e1e1;
+                background: white;
+                font-size: 14px;
+                color: #4f4f4f;
+                dt{
+                    padding: 0 33px;
+                }
+                dd{
+                    a{
+                        padding: 0 12px;
+                        color: #4f4f4f;
+                    }
+                }
+            }
+            .list-about{
+                width: 100%;
+                height: 45px;
+                line-height: 45px;
+                border: 1px solid #e1e1e1;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 15px;
+                dt{
+                    width: 100px;
+                    height: 43px;
+                    border-right: 1px solid #e1e1e1;
+                    background: #e9004f;
+                    color: white;
+                }
+                dd{
+                   height: 43px;
+                   padding: 0 35px;
+                   border-right: 1px solid #e1e1e1; 
+                   position: relative;
+                   i{
+                       color: #e9004f;
+                   }
+                   .l-down{
+                       position: absolute;
+                       top: 100%;
+                       left: 0;
+                       z-index: 500;
+                       border-right: 1px solid #e1e1e1;
+                       border-left: 1px solid #e1e1e1;
+                       background: white;
+                       height: 0;
+                       overflow: hidden;
+                       transition: all 0.3s ease-out 0s; 
+                       li{
+                           width: 134px;
+                           height: 44px;
+                           line-height: 40px;
+                           font-size: 12px;
+                           border-bottom: 1px solid #e1e1e1;
+                           a{
+                               color: #4f4f4f;
+                           }
+                           a:hover{
+                               color: #e9004f;
+                           }
+                       }
+                   }
+                }
+                dd:hover .l-down{
+                    height: 88px;
+                }
+                .hover:hover{
+                    background: #e9004f;
+                    color: white;
+                }
+                dd:nth-of-type(3){
+                    width: 595px;
+                    border: none;
+                    i{
+                        padding: 0 1px;
+                    }
+                }
+                dd:last-of-type{
+                    border: none;
+                }
+            }
+            #list-data{
+                width: 100%;
+                min-height: 1200px;
+                float: left;
+                li{
+                    height: 191px;
+                    padding: 20px 45px 20px 5px;
+                    border-bottom: 1px solid #e1e1e1;
+                    background: white;
+                    .l-left{
+                        float: left;
+                        padding-left: 170px;
+                        position: relative;
+                        color: #4f4f4f;
+                        dt{
+                            width: 150px;
+                            height: 150px;
+                            position: absolute;
+                            left: 0;
+                            img{
+                                max-width: 100%;
+                            }
+                        }
+                        dd:nth-of-type(1){
+                            line-height: 55px;
+                            a{color: #4f4f4f;}
+                            h3{font-size: 17px;}
+                        }
+                        dd:nth-of-type(2){
+                            font-size: 14px;   
+                        }
+                    }
+                }
+                .l-right{
+                    float: right;
+                    width: 320px;
+                    height: 150px;
+                    position: relative;
+                    color: #e9004f;
+                    .l-price{
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-size: 20px;
+                    }
+                    .l-buy{
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        input{
+                            border: none;
+                            outline: none;
+                            padding: 15px 32px;
+                            color: white;
+                            background: #e9004f;
+                            font-size: 15px;
+                            cursor: pointer;
+                        }
+                        input:hover{
+                            background: #ff3577;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#detail-sideBar{
+    top: 500px;
+}

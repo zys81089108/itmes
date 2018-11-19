@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/login-register/login-register.css"/>
+	</head>
+	<body>
+	    <header></header>
+	    <main>
+	        <div class="main-box">
+            <h3 class="page-title"><a href="/index.html" id="home">主页</a> > <a href="/html/login-register/login-register.html" id="loginRegister">登录/注册</a></h3>
+            
+                    <!--login register -->
+                    <div class="l-r-box">
+                        <div class="title">
+                            <div id="login-title" class="change">登陆</div>
+                            <div id="register-title">注册</div>
+                        </div>
+                        <div class="data">
+                            <!-- login --->
+                            <div id="login-data"  class="show">
+                            	<div class="input-box">
+                            		<div class="form">
+                            			<label for="username">邮箱或手机号：</label>
+                            			<input type="text" name="username" id="login-username" placeholder="邮箱/手机号"/>
+                            			<div class="err"></div>
+                            		</div>
+                            		<div class="form">
+                            			<label for="password">密码：</label>
+                            			<input type="password" name="password" id="login-password"/>
+                            			<div class="err"></div>
+                            		</div>
+                            		<div class="status">
+                            			<input type="checkbox" name="" id="" value="true" checked="checked"/>
+                            			<span>自动登陆</span>
+                            			<span><a href="https://mall.ganso.com.cn/login/pw/request/external">忘记密码?</a></span>
+                            		</div>
+                            		<input type="submit" class="btn" value="登陆" />
+                            		<i></i>
+                            	</div>
+                                <div class="wx"></div>
+                            </div>
+                            <!-- register -->
+                            <div id="register-data">
+                                <div class="input-box">
+                                    <div class="form">
+                                        <label for="reg-phone">手机号:<br />*</label>
+                                        <input type="number" name="reg-phone" id="reg-phone"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="verifi">验证码:<br />*</label>
+                                        <span class="ver-img"><img src="/img/login-register/-2.jpg" alt="" /><button class="reload">刷新</button></span>
+                                        <input type="text" name="verifi" id="verifi"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="mes">短信验证码:<br />*</label>
+                                        <input type="text" name="mes" id="mes"/><button class="sub">发送验证码</button>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="he-phone">推荐人手机号:</label>
+                                        <input type="number" name="he-phone" id="he-phone"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="birthday">出生日期:</label>
+                                        <input type="text" name="birthday" id="birthday"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="email">邮箱:</label>
+                                        <input type="email" name="email" id="email"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="reg-password">密码:<br />*</label>
+                                        <input type="password" name="reg-password" id="reg-password"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="form">
+                                        <label for="re-password">确认密码:<br />*</label>
+                                        <input type="password" name="re-password" id="re-password"/>
+                                        <div class="err"></div>
+                                    </div>
+                                    <div class="status ">
+                                        <input type="checkbox" name="" id="checkbox" checked="checked"/>
+                                        <span>同意注册协议</span>
+                                        <span><a href="http://mall.ganso.com.cn/Ganso/zh/storeOrderBrowser/help">注册协议</a></span>
+                                    </div>
+                                    <input type="submit" class="btn" id="reg-btn" value="同意协议并注册" />
+                                    <i>标有星号 (*) 的字段是必填字段</i>
+                                </div>
+                                <div class="wx"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--login register END--> 
+	        </div>
+	    </main>
+	    <footer></footer>
+	   <div id="sideBar"></div>
+	<script src="/lib/require/require.js" data-main="/js/login-register"></script>
+	</body>
+</html>

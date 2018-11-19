@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+body{
+	font-family: 'Microsoft yahei' ,Arial;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: bottom;
+	border: none;
+	// max-width: 100%;
+}
+i,em{
+	font-style: normal;
+}
+button{
+   border: none;
+   outline-style: none;
+   cursor: pointer;
+}

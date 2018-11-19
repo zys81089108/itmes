@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/detail/detail.css">
+</head>
+<body>
+	<header></header>
+	<main>
+	    <div class="main-box">
+	        <div id="location"></div>
+	        <div id="product">
+	        	<!-- 放大镜区 -->
+	            <div class="jqzoom"></div>
+	            <!-- 放大镜区 END -->
+	            
+	            <!-- 商品详细区 -->
+                <div id="detail">
+                	
+                	<!-- 价格区 -->
+                    <dl class="price">
+                    	<dt>优惠价：</dt>
+                    </dl>
+                    <!-- 价格区 END -->
+                    
+                    <!-- 商品数量区  -->
+                    <div class="box">
+	                    <dl class="num">
+	                    	<dt>数量：</dt>
+	                    	<dd>
+	                    		<div class="amBtn">
+	                    			<input type="text" value="1" class="number"/>
+	                    			<span class="add">+</span>
+	                    			<span class="min">-</span>
+	                    		</div>
+	                    		<div class="btn">
+			                    	<button class="buy"><a href="/html/cart/cart.html" title="">立即购买</a></button>
+			                    	<button class="add">加入购物车</button>
+			                    </div>
+	                    	</dd>
+	                    </dl>
+                    </div>
+                    <!-- 商品数量区 END -->
+                    
+                    <div class="img"></div>
+                    
+                    <!-- 商品编号区 -->
+                    <div class="txt">
+                        <button>收藏</button>
+                    </div>
+                    <!-- 商品编号区 END -->
+                    
+                </div>
+                <!-- 商品详细区 END -->
+                
+                <!-- 放大镜图片区 -->
+	        	<div id="glass">
+					<div class="left"><img src="/img/detail/left.gif" class="leftbtn"/></div>
+					<div class="glassImg">
+						<ul></ul>
+					</div>
+					<div class="right"><img src="/img/detail/right.gif" class="rightbtn"/></div>
+	        	</div>
+	        	<!-- 放大镜图片区 END -->
+	        	
+	        </div>
+	        <div class="product-img">
+	        	<div class="p-title">
+	        		<div class="color">商品介绍</div>
+	        		<div>商品评价</div>
+	        	</div>
+	        	<div class="text">
+	        		<div>
+	        			<div class="border">
+	        				<span>欢迎您发表评论</span>
+	        				<span>0/0 评论</span>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </div>
+	    </div>
+	</main>
+	<footer></footer>
+	<div id="detail-sideBar"></div>
+	<div id="sideBar"></div>
+	<script src="/lib/require/require.js" data-main="/js/detail"></script>
+</body>
+</html>

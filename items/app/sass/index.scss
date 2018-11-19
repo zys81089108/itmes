@@ -1,0 +1,68 @@
+@import  "component/reset.scss";
+@import  "component/header.scss";
+@import  "component/footer.scss";
+
+main{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	overflow: hidden;
+}
+#banner {
+		width: 100%;
+		position: absolute;
+	>li {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+	 >a {
+		display: block;
+    	width: 100%;
+    	height: 100%;
+		position: relative;
+		background: white;
+			.b-img {
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+		    }
+	    }
+	}
+	>li:first-child a{
+			background: #ffd7e5;
+		}
+	>li:nth-child(2) a{
+		img{
+			width: 80%;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px #757575;
+		}
+	}
+	>li:nth-child(3) a{
+		img{
+			width: 65%;
+		}
+	}
+	>li:nth-child(4) a{
+		img{
+			width: 80%;
+			border-radius: 10px;
+			box-shadow: 5px 5px 5px #757575;
+		}
+	}
+	>li:last-child>div{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background: url(../img/img_5_1.jpg) center center;
+	}
+	>li:not(:first-child){
+	    >a{
+		background: url(../img/01.jpg) no-repeat center center;
+	    }
+    }
+}

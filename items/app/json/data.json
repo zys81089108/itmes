@@ -1,0 +1,36 @@
+
+[
+    {
+    "tab":{
+        "1":{"id":1, "img":"/img/shop-mall/tab-1.jpg", "desc":"8号黑木森林慕思蛋糕", "price":288, "math":1},
+        "2":{"id":2, "img":"/img/shop-mall/tab-2.jpg", "desc":"樱香漫漫鲜奶蛋糕", "price":288, "math":2},
+        "3":{"id":3, "img":"/img/shop-mall/tab-3.jpg", "desc":"朵朵咖啡鲜奶蛋糕", "price":288, "math":3},
+        "4":{"id":4, "img":"/img/shop-mall/tab-4.jpg", "desc":"爱的心意鲜奶蛋糕", "price":288, "math":4},
+        "5":{"id":5, "img":"/img/shop-mall/tab-5.jpg", "desc":"黑芝麻糕打开记忆礼盒", "price":68, "math":5},
+        "6":{"id":6, "img":"/img/shop-mall/tab-6.jpg", "desc":"核枣糕打开记忆礼盒", "price":88, "math":6},
+        "7":{"id":7, "img":"/img/shop-mall/tab-7.jpg", "desc":"贵圆糕打开记忆礼盒", "price":98, "math":7},
+        "8":{"id":8, "img":"/img/shop-mall/tab-8.jpg", "desc":"黑芝麻糕礼盒", "price":88, "math":8},
+        "9":{"id":9, "img":"/img/shop-mall/tab-9.jpg", "desc":"元祖旺来凤梨酥", "price":128, "math":9},
+        "10":{"id":10, "img":"/img/shop-mall/tab-10.jpg", "desc":"坚果礼盒", "price":98, "math":10},
+        "11":{"id":11, "img":"/img/shop-mall/tab-11.jpg", "desc":"幸福结果子礼盒", "price":60, "math":11},
+        "12":{"id":12, "img":"/img/shop-mall/tab-12.jpg", "desc":"绿豆糕礼盒", "price":98, "math":12},
+        "13":{"id":13, "img":"/img/shop-mall/tab-13.jpg", "desc":"100型心意卡", "price":100, "math":13},
+        "14":{"id":14, "img":"/img/shop-mall/tab-14.jpg", "desc":"200型心意卡", "price":200, "math":14},
+        "15":{"id":15, "img":"/img/shop-mall/tab-15.jpg", "desc":"300型心意卡", "price":300, "math":15},
+        "16":{"id":16, "img":"/img/shop-mall/tab-16.jpg", "desc":"500型心意卡", "price":500, "math":16}
+        }
+    },
+    {
+    "column":{
+        "1":{"id":22, "img":"/img/shop-mall/c-1.1.jpg", "title":"琥珀之心芝麻鲜奶蛋糕", "desc":"8号原价288元，暖冬新品，活动立减30元", "price":258, "math":1},
+        "2":{"id":23, "img":"/img/shop-mall/c-1.2.jpg", "title":"元祖萌虎鲜奶蛋糕", "desc":"重返童年时光", "price":218, "math":2},
+        "3":{"id":24, "img":"/img/shop-mall/c-1.3.jpg", "title":"坚果大地芝麻鲜奶蛋糕", "desc":"8号原价288元，暖冬新品，活动立减30元", "price":258, "math":3},
+        "4":{"id":20, "img":"/img/shop-mall/c-2.1.jpg", "title":"核枣糕礼盒", "desc":"入口的幸福，相伴的健康。", "price":118, "math":4},
+        "5":{"id":5, "img":"/img/shop-mall/c-2.2.jpg", "title":"黑芝麻糕打开记忆礼盒", "desc":"浓浓芝麻香，怀念的味道。", "price":68, "math":5},
+        "6":{"id":21, "img":"/img/shop-mall/c-2.3.jpg", "title":"贵圆糕礼盒", "desc":"清香桂圆，流连忘返", "price":128, "math":6},
+        "7":{"id":17, "img":"/img/shop-mall/c-3.1.jpg", "title":"麻糬枣泥味", "desc":"Q糯的外表下，很有内涵。", "price":10, "math":7},
+        "8":{"id":18, "img":"/img/shop-mall/c-3.2.jpg", "title":"蜂蜜蛋糕", "desc":"", "price":11, "math":8},
+        "9":{"id":19, "img":"/img/shop-mall/c-3.3.jpg", "title":"小方慕思草莓味", "desc":"三点一刻，最期待的享受。", "price":20, "math":9}
+    }
+    }
+]

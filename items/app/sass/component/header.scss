@@ -1,0 +1,110 @@
+//菜单栏高度
+$menuHeight:100px;
+//菜单栏a颜色
+$aColor : #c6023a;
+//header颜色
+$headerColor: white;
+
+/*header*/
+header{
+	width: 100%;
+	min-width: 900px;
+	position:fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	background: $headerColor;
+	border-bottom: 1px solid #efefef;
+}
+
+/*nav*/
+header>.container{
+	width: 100%;
+	#nav{
+		width: 80%;
+		margin: 0 10%;
+		height: $menuHeight;
+		.li_{
+			width: 10%;
+			height: $menuHeight;
+			float: left;
+			position:relative;
+			line-height: $menuHeight;
+			text-align:center;
+			font-size: 14px;
+			>a{
+				display: inline-block;
+				height: $menuHeight;
+				padding: 0 5px;
+				color: #1B1B1B;
+				transition: all 0.3s ease-out 0s;
+				span{
+					white-space: nowrap;
+				}
+			}
+
+		}
+		.li_:nth-child(5){	
+			margin-left:20%;
+		}
+		.li_:hover >a{
+			border-bottom: 4px solid $aColor;
+		}
+		.on>a{
+			color: $aColor;
+			border-bottom: 4px solid $aColor;
+		}
+		.li_:hover .down_menu{
+			visibility: visible;
+			height: 100px;
+		}
+		.li_:hover .d-3{
+			visibility: visible;
+			height: 200px;
+		}
+	}
+	.logo{
+		position: absolute;
+		float: left;
+		width: 136px;
+		top: 20px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		img{
+			width: 136px;
+		}
+	}
+}
+
+/* nav down menu */
+header .container #nav .down_menu{
+	width: 100%;
+	background: #f3f3f3;
+	min-width:90px;
+	// display: none;
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	border-radius: 15px;
+	height: 0;
+	overflow: hidden;
+	transition: all .3s ease-out 0s;
+	>li{
+		height: 50px;
+		line-height: 50px;
+		>a{
+			color: $aColor;
+			font-size: 16px;
+			width: 100%;
+			height: 30px;
+			line-height: 30px;
+			background: white;
+			border-radius: 15px;
+			padding: 5px 13px;
+		}
+		>a:hover{
+		color: white;
+		background: $aColor;
+		}
+	}
+}
